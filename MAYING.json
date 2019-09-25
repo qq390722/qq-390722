@@ -1,0 +1,279 @@
+{
+    "general": [
+        "server_check_url=http://www.gstatic.com/generate_204",
+        "network_check_url=http://bing.com/"
+    ],
+    "dns": [
+        "server=8.8.8.8",
+        "server=1.0.0.1",
+        "server=114.114.114.114",
+        "server=223.5.5.5",
+        "server=119.29.29.29",
+        "server=117.50.10.10"
+    ],
+    "policy": {
+        "NetFlix": {
+            "type": "available",
+            "policies": [],
+            "img-url": "https://raw.githubusercontent.com/zealson/Zure/master/IconSet/Netflix.png"
+        },
+        "HongKong": {
+            "type": "available",
+            "policies": [],
+            "img-url": "https://raw.githubusercontent.com/zealson/Zure/master/IconSet/Hong_Kong.png"
+        },
+        "Japan": {
+            "type": "available",
+            "policies": [],
+            "img-url": "https://raw.githubusercontent.com/zealson/Zure/master/IconSet/Japan.png"
+        },
+        "Singapore": {
+            "type": "available",
+            "policies": [],
+            "img-url": "https://raw.githubusercontent.com/zealson/Zure/master/IconSet/Singapore.png"
+        },
+        "America": {
+            "type": "available",
+            "policies": [],
+            "img-url": "https://raw.githubusercontent.com/zealson/Zure/master/IconSet/United_States.png"
+        },
+        "Other": {
+            "type": "available",
+            "policies": [],
+            "img-url": "https://raw.githubusercontent.com/zealson/Zure/master/IconSet/Final.png"
+        },
+        "AdBlock": {
+            "type": "static",
+            "policies": [
+                "reject",
+                "direct"
+            ],
+            "img-url": "https://raw.githubusercontent.com/GeQ1an/Rules/master/QuantumultX/IconSet/AdBlock.png"
+        },
+        "Apple": {
+            "type": "static",
+            "policies": [
+                "direct",
+                "Outside"
+            ],
+            "img-url": "https://raw.githubusercontent.com/GeQ1an/Rules/master/QuantumultX/IconSet/Apple.png"
+        },
+        "CMedia": {
+            "type": "static",
+            "policies": [
+                "direct",
+                "Outside"
+            ],
+            "img-url": "https://raw.githubusercontent.com/GeQ1an/Rules/master/QuantumultX/IconSet/CMedia.png"
+        },
+        "Netflix": {
+            "type": "static",
+            "policies": [
+                "NetFlix",
+                "direct"
+            ],
+            "img-url": "https://raw.githubusercontent.com/GeQ1an/Rules/master/QuantumultX/IconSet/Netflix.png"
+        },
+        "YouTube": {
+            "type": "static",
+            "policies": [
+                "Outside",
+                "direct"
+            ],
+            "img-url": "https://raw.githubusercontent.com/GeQ1an/Rules/master/QuantumultX/IconSet/YouTube.png"
+        },
+        "Microsoft": {
+            "type": "static",
+            "policies": [
+                "direct",
+                "Outside"
+            ],
+            "img-url": "https://raw.githubusercontent.com/GeQ1an/Rules/master/QuantumultX/IconSet/Microsoft.png"
+        },
+        "PayPal": {
+            "type": "static",
+            "policies": [
+                "Outside",
+                "direct"
+            ],
+            "img-url": "https://raw.githubusercontent.com/GeQ1an/Rules/master/QuantumultX/IconSet/PayPal.png"
+        },
+        "Mainland": {
+            "type": "static",
+            "policies": [
+                "direct",
+                "Outside"
+            ],
+            "img-url": "https://raw.githubusercontent.com/GeQ1an/Rules/master/QuantumultX/IconSet/Mainland.png"
+        },
+        "Speedtest": {
+            "type": "static",
+            "policies": [
+                "Outside",
+                "direct"
+            ],
+            "img-url": "https://raw.githubusercontent.com/GeQ1an/Rules/master/QuantumultX/IconSet/Speedtest.png"
+        },
+        "Others": {
+            "type": "static",
+            "policies": [
+                "Outside",
+                "direct"
+            ],
+            "img-url": "https://raw.githubusercontent.com/GeQ1an/Rules/master/QuantumultX/IconSet/Others.png"
+        },
+        "Outside": {
+            "type": "static",
+            "policies": [
+                "Hong Kong",
+                "Japan",
+                "Singapore",
+                "America",
+                "Other",
+                "NetFlix",
+                "direct"
+            ],
+            "img-url": "https://raw.githubusercontent.com/GeQ1an/Rules/master/QuantumultX/IconSet/Outside.png"
+        }
+
+    },
+    "server_remote": [
+        {
+            "url": "https://api.okab3.com/filter?type=ssr&url=https://sub.ssr.sh/link/D3QEbvCBJBWx9w5D?mu=1&regex=.*香港",
+            "tag": "Hong_Kong",
+            "type": "ssr",
+            "policies": [
+                "HongKong"
+            ]
+        },
+        {
+            "url": "https://api.okab3.com/filter?type=ssr&url=https://sub.ssr.sh/link/D3QEbvCBJBWx9w5D?mu=1&regex=.*东京",
+            "tag": "Japan",
+            "type": "ssr",
+            "policies": [
+                "Japan"
+            ]
+        },
+        {
+            "url": "https://api.okab3.com/filter?type=ssr&url=https://sub.ssr.sh/link/D3QEbvCBJBWx9w5D?mu=1&regex=.*新加坡",
+            "tag": "Singapore",
+            "type": "ssr",
+            "policies": [
+                "Singapore"
+            ]
+        },
+        {
+            "url": "https://api.okab3.com/filter?type=ssr&url=https://sub.ssr.sh/link/D3QEbvCBJBWx9w5D?mu=1&regex=.*(硅谷|洛杉矶|费利蒙|达拉斯|法兰克福|芝加哥)",
+            "tag": "America",
+            "type": "ssr",
+            "policies": [
+                "America"
+            ]
+        },
+        {
+            "url": "https://api.okab3.com/filter?type=ssr&url=https://sub.ssr.sh/link/D3QEbvCBJBWx9w5D?mu=1&regex=.*(测试|应急|伦敦)",
+            "tag": "Other",
+            "type": "ssr",
+            "policies": [
+                "Other"
+            ]
+        },
+        {
+            "url": "https://api.okab3.com/filter?type=ssr&url=https://sub.ssr.sh/link/D3QEbvCBJBWx9w5D?mu=1&regex=.*NF",
+            "tag": "NetFlix",
+            "type": "ssr",
+            "policies": [
+                "NetFlix"
+            ]
+        }
+    ],
+    "filter_remote": [
+        {
+            "url": "https://raw.githubusercontent.com/GeQ1an/Rules/master/QuantumultX/Filter/AdBlock.list",
+            "tag": "Unbreak",
+            "enable": "true",
+            "force-policy": "AdBlock"
+        },
+        {
+            "url": "https://raw.githubusercontent.com/GeQ1an/Rules/master/QuantumultX/Filter/Apple.list",
+            "tag": "Unbreak",
+            "enable": "true",
+            "force-policy": "Apple"
+        },
+        {
+            "url": "https://raw.githubusercontent.com/GeQ1an/Rules/master/QuantumultX/Filter/CMedia.list",
+            "tag": "Unbreak",
+            "enable": "true",
+            "force-policy": "CMedia"
+        },
+        {
+            "url": "https://raw.githubusercontent.com/GeQ1an/Rules/master/QuantumultX/Filter/GMedia.list",
+            "tag": "Unbreak",
+            "enable": "true",
+            "force-policy": "GMedia"
+        },
+        {
+            "url": "https://raw.githubusercontent.com/GeQ1an/Rules/master/QuantumultX/Filter/Netflix.list",
+            "tag": "Unbreak",
+            "enable": "true",
+            "force-policy": "Netflix"
+        },
+        {
+            "url": "https://raw.githubusercontent.com/GeQ1an/Rules/master/QuantumultX/Filter/YouTube.list",
+            "tag": "Unbreak",
+            "enable": "true",
+            "force-policy": "YouTube"
+        },
+        {
+            "url": "https://raw.githubusercontent.com/GeQ1an/Rules/master/QuantumultX/Filter/Microsoft.list",
+            "tag": "Unbreak",
+            "enable": "true",
+            "force-policy": "Microsoft"
+        },
+        {
+            "url": "https://raw.githubusercontent.com/GeQ1an/Rules/master/QuantumultX/Filter/PayPal.list",
+            "tag": "Unbreak",
+            "enable": "true",
+            "force-policy": "PayPal"
+        },
+        {
+            "url": "https://raw.githubusercontent.com/GeQ1an/Rules/master/QuantumultX/Filter/Outside.list",
+            "tag": "Unbreak",
+            "enable": "true",
+            "force-policy": "Outside"
+        },
+        {
+            "url": "https://raw.githubusercontent.com/GeQ1an/Rules/master/QuantumultX/Filter/Mainland.list",
+            "tag": "Unbreak",
+            "enable": "true",
+            "force-policy": "Mainland"
+        },
+        {
+            "url": "https://raw.githubusercontent.com/GeQ1an/Rules/master/QuantumultX/Filter/Speedtest.list",
+            "tag": "Unbreak",
+            "enable": "true",
+            "force-policy": "Speedtest"
+        },
+        {
+            "url": "https://raw.githubusercontent.com/GeQ1an/Rules/master/QuantumultX/Filter/LAN.list",
+            "tag": "Unbreak",
+            "enable": "true",
+            "force-policy": "CMedia"
+        }
+    ],
+    "rewrite_remote": [
+        "https://raw.githubusercontent.com/NobyDa/Script/master/QuantumultX/Rewrite_lhie1.conf, tag=Rewrite, enabled=true",
+        "https://raw.githubusercontent.com/NobyDa/Script/master/QuantumultX/Js.conf, tag=Script, enabled=true",
+        "https://raw.githubusercontent.com/qq390722/qq-390722/master/script.conf, tag=Script, enabled=true"
+    ],
+    "server_local": [],
+    "filter_local": [
+        "final, Others"
+    ],
+    "rewrite_local": [],
+    "mitm": [
+        "passphrase = 51D14DC2",
+        "p12 = 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",
+        "hostname = api*.tiktokv.com, api*.musical.ly, api*.amemv.com, aweme*.snssdk.com, api.*.xyz"
+    ]
+}
